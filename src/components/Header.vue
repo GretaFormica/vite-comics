@@ -54,6 +54,12 @@ header{
 
 .ul-h{
     display: flex;
+
+    li{
+      &:hover{
+        color:  rgb(68, 86, 226);
+      }
+    }
 }
 
 
