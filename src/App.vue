@@ -40,6 +40,17 @@ img{
   max-width: 100%;
 }
 
+ul {
+  list-style-type: none;
 
+  li{
+    margin: 0 0.5rem;
+
+    a{
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+}
 
 </style>

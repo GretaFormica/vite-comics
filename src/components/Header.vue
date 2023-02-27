@@ -6,14 +6,14 @@
   
   <header>
 
-    <div class="container">
+    <div class="container-h">
 
       <div class="flex">
 
         
         <img src="../../vue-dc-comics-1/img/dc-logo.png">
         
-        <ul>
+        <ul class="ul-h">
           <li><a href="#">CHARACTERS</a></li>
           <li><a href="#">COMICS</a></li>
           <li><a href="#">MOVIES</a></li>
@@ -35,7 +35,7 @@ header{
   height: 80px;
 }
 
-.container{
+.container-h{
   max-width: 1200px;
   margin: 0 auto;
   height: 100%;
@@ -52,18 +52,10 @@ header{
   }
 }
 
-ul {
-  list-style-type: none;
-
-  li{
-    display: inline-block;
-    margin: 0 0.5rem;
-
-    a{
-      color: inherit;
-      text-decoration: none;
-    }
-  }
+.ul-h{
+    display: flex;
 }
+
+
 
 </style>
