@@ -15,6 +15,10 @@
 <template>
   <main>
 
+    <section class="jumbo">
+
+    </section>
+
     <section class="black">
 
         <div class="container-m">
@@ -45,7 +49,7 @@
 
     </section>
 
-    <section class="jumbo">
+    <section class="bg-g">
 
         <div class="container-m">
 
@@ -78,6 +82,12 @@
 </template>
 
 <style lang="scss">
+
+.jumbo{
+    height: 50vh;
+    background-image: url('../../vue-dc-comics-1/img/jumbotron.jpg');
+    background-size: cover;
+}
 
 .black{
     background-color: black;
@@ -134,7 +144,7 @@
     }
 }
 
-.jumbo{
+.bg-g{
     height: 55vh;
     background-image: url('../../vue-dc-comics-1/img/footer-bg.jpg');
 }
