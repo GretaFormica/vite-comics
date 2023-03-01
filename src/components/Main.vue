@@ -18,7 +18,7 @@
     <section class="black">
 
         <div class="container-m">
-            <ul>
+            <ul class="ul-thumb">
                 <li
                 v-for="comic in comics">
 
@@ -81,7 +81,8 @@
 
 .black{
     background-color: black;
-    height: 80px;
+    padding: 50px;
+    color: white;
 }
 
 .blue{
@@ -110,6 +111,25 @@
 
         img{
             width: 30px;
+        }
+    }
+}
+
+.ul-thumb{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    li{
+        width: calc(100% / 7);
+        height: 200px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+        img{
+            object-fit: cover;
+            object-position: center;
+            height: 100%;
         }
     }
 }
