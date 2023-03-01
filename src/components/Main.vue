@@ -1,5 +1,15 @@
 <script>
+    export default {
+        data () {
+            return {
 
+            }
+        },
+
+        props: {
+            comics: Array
+        }
+    }
 </script>
 
 <template>
@@ -8,7 +18,15 @@
     <section class="black">
 
         <div class="container-m">
-            <h2> <b> -- Content goes here -- </b> </h2>
+            <ul>
+                <li
+                v-for="comic in comics">
+
+                <img :src= comic.thumb>
+                {{ comic.series }}
+
+                </li>
+            </ul>
         </div>
 
     </section>
